@@ -45,4 +45,13 @@ $('.test-box2').mouseleave(function() {
     $(this).removeClass('show');
 });
 
+
+$('.box').mouseenter(function(){
+  $(this).addClass('change');
+ });
+  
+$('.placeholder').mouseenter(function(){
+  $(this).addClass('change');
 });
+});
+

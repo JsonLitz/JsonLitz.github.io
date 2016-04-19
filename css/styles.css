@@ -8,9 +8,13 @@ h1 {
 	color: #928F8C;
 	font-size: 5em;
 }
-h3 {
+h2 {
 	margin: 0;
 	color:#928F8C;
+}
+
+h3 {
+	margin:auto;
 }
 
 a {
@@ -60,6 +64,7 @@ nav {
 	-webkit-justify-content: center;
 	-ms-flex-pack: center;
 	justify-content: center;
+	border-style: dotted 1px;
 
 }
 
@@ -103,14 +108,14 @@ nav {
 
 }
 
-.test-box2 h3 {
+.test-box2 h2 {
 	opacity: 0;
 }
 .test-box2 p {
 	opacity: 0;
 }
 
-.test-box2.show h3 {
+.test-box2.show h2 {
 	opacity: 1;
 }
 
@@ -120,7 +125,7 @@ nav {
 
 
 .box   {  width:150px;
-           height:50px;
+           height:70px;
            box-shadow:inset 1px 1px 40px 0 rgba(0,0,0,.45);
           border-bottom:2px solid #fff;
           border-right:2px solid #fff;
@@ -142,10 +147,32 @@ margin: 20px auto;
 .box:hover #overlay {
                opacity:1;}
 
-#plus       {  font-family:Helvetica;
+#plus1       {  font-family:Helvetica;
                font-weight:900;
-               color:rgba(255,255,255,.85);
-               font-size:25px;}
+               color:white;
+               font-size:25px;
+           }
+#plus2       {  font-family:Helvetica;
+			   font-weight:900;
+               color:blue;
+               font-size:25px;
+           }
+#plus3       {  font-family:Helvetica;
+			   font-weight:900;
+               color:green;
+               font-size:25px;
+           }
+#plus4       {  font-family:Helvetica;
+			   font-weight:900;
+               color:yellow;
+               font-size:25px;
+           }
+#plus5       {  font-family:Helvetica;
+			   font-weight:900;
+               color:black;
+               font-size:25px;
+           }
+
 
 .center {
   -webkit-justify-content: center;
@@ -157,4 +184,45 @@ margin: 20px auto;
       -ms-flex-align: center;
               -ms-grid-row-align: center;
           align-items: center;
+}
+
+.box .test-box2 h2{
+	opacity: 0;
+
+}
+
+.box .test-box2.change h2{
+	opacity: 1;
+	}
+.box .test-box2 h2{
+	opacity: 0;
+
+}
+
+.box .test-box2.change h2{
+	opacity: 1;
+	}
+.box .test-box2 h2{
+	opacity: 0;
+
+}
+
+.box .test-box2.change h2{
+	opacity: 1;
+	}
+.box .test-box2 h2{
+	opacity: 0;
+
+}
+
+.box .test-box2.change h2{
+	opacity: 1;
+	}
+
+.buffer {
+	padding-top:30px;
+}
+
+.sizing {
+	height: 100%;
 }
