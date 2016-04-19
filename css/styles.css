@@ -1,5 +1,5 @@
 body {
-	background-color: rgb(42, 59, 61);
+	background-color: rgb(29, 41, 43);
 	font-family: 'Raleway';
 	background-size: cover;
 }
@@ -39,7 +39,7 @@ nav {
 
 .banner {
 	border-style: inset;
-	background-color: rgb(42, 59, 61);
+	background-color: rgb(29, 41, 43);
 
 }
 
@@ -56,7 +56,7 @@ nav {
 .placeholder{
 	width: 100%;
 	height: 500px;
-	background-color: rgb(42, 59, 61);
+	background-color: rgb(29, 41, 43);
 	-webkit-justify-content: center;
 	-ms-flex-pack: center;
 	justify-content: center;
@@ -68,7 +68,7 @@ nav {
 	text-align: center;
 	margin: auto;
 	padding: 50px;
-	color: #4D8086;
+	color: rgb(140, 153, 127);
 }
 
 .projects {
@@ -98,7 +98,7 @@ nav {
 }
 
 .skills {
-	/*width: 100px;*/
+	display: flex;
 	text-align: center;
 
 }
@@ -129,7 +129,7 @@ nav {
   background-size:cover;
 border-radius:5px;
 overflow:hidden;
-margin: 10px auto;
+margin: 20px auto;
 }
 
 #overlay    {  background:rgba(0,0,0,.75);
