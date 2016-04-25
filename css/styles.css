@@ -223,6 +223,19 @@ margin: 20px auto;
 	padding-top:30px;
 }
 
-.sizing {
-	height: 100%;
+.stickyFooter {
+     position: fixed;
+     bottom: 0px;
+     width: 100%;
+     overflow: visible;
+     z-index: 99;
+     padding-top: 5px;
+     padding-bottom: 3px;
+     background: white;
+     border-top: solid white 2px;
+     background-color: #125F32;
+     -webkit-box-shadow: 0px -5px 15px 0px #bfbfbf;
+     box-shadow: 0px -5px 15px 0px #bfbfbf;
+     height: 34px;
+     padding-bottom: 30px;
 }
